@@ -5,10 +5,10 @@ def findSum(input_array, s):
             sum = input_array[i] + input_array[j]
             if (sum == s):
                 # print(input_array[i], "*", input_array[j], "=", sum, "<--- true")
-                return "true"
+                return True
             # else:
             #     print(input_array[i], "*", input_array[j], "=", sum, " <--- false")
-    return "false"
+    return False
 
 input_array = [1, 2, 4, 7, 11, 15]
 s = 15
